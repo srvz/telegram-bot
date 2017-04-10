@@ -15,5 +15,16 @@ pipeline {
         )
       }
     }
+    stage('cccc') {
+      steps {
+        sh 'echo "blabal"'
+        sh 'echo "blabale\''
+      }
+    }
+    stage('ddd') {
+      steps {
+        echo 'hahhaha'
+      }
+    }
   }
 }
